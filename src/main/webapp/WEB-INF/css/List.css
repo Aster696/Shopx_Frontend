@@ -1,0 +1,13 @@
+@charset "UTF-8";
+.listContainer{
+	width: 115%;
+	background-color: white;
+}
+.tableContainer{
+	width: 100%; 
+	max-height: 600px;
+	overflow: scroll;
+}
+table, th, td{
+	border: 1px solid black;
+}

@@ -1,0 +1,139 @@
+@charset "UTF-8";
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background-image: url(https://i.pinimg.com/originals/3d/23/04/3d2304bbb048b47798f8a972416de43b.png);
+	background-size: cover;
+	background-attachment: fixed;
+}
+input{
+	border-radius: 10px;
+}
+.mycontainer{
+	width: 100%;
+	padding: 15px;
+	background-color: #036ffc;
+}
+
+.Logo{
+	background-color: #8031b5;
+	color: #ffffff;
+	font-size: 25px;
+	padding: 15px 30px;
+	border-radius: 15px;
+}
+.Link a{
+	position: relative;
+	left: 15%;
+	text-decoration: none;
+	color: #000000;
+	padding: 15px 30px;
+	font-size: 18px;
+}
+.Link input{
+	position: relative;
+	left: 32%;
+}
+.Link a:hover {
+	text-decoration: none;
+	border-style: solid;
+	border-radius: 5px;
+	color: #ffffff;
+}
+.rightSide a{
+	position: relative;
+	left: 25%;
+	text-decoration: none;
+	color: #000000;
+	padding: 15px 30px;
+	font-size: 18px;
+}
+.rightSide a:hover{
+	text-decoration: none;
+	border-style: solid;
+	border-radius: 5px;
+	color: #ffffff;
+}
+.dropdown {
+  position: relative;
+  left: 23%;
+  display: inline-block;
+}
+.dropdown button{
+  color: #000000;
+  font-size: 18px;
+  padding: 3px 20px;
+  background-color: #036ffc;
+  border-style: solid;
+  border-radius: 15px;
+}
+.dropdown button:hover{
+	color: #ffffff;
+	
+}
+.dropdown a{
+  text-decoration: none;
+  color: #000000;
+  font-size: 18px;
+  padding: 15px 30px;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.slidebarCss{
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: blu;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 5px;
+  background-color: #036ffc;
+}
+
+.slidebarCss a{
+  border-style: solid;
+  font-size: 18px;
+  text-decoration: none;
+  color: #000000;
+  padding: 15px 30px;
+  display: block;
+  transition: 0.3s;
+}
+
+.slidebarCss a:hover {
+  border-style: solid;
+  border-radius: 5px;
+  text-decoration:none;
+  color: #ffffff;
+}
+
+.slidebarCss .closebtn{
+  position: absolute;
+  top: 0;
+  right: 18px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .slidebarCss {padding-top: 15px;}
+  .slidebarCss a {font-size: 18px;}
+}
+

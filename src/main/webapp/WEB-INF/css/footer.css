@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+.footerContainer{
+	width: 100%;
+	height:222px;
+	background-color: #2b242e;
+}
+.footerContainer a, label{
+	color: #ffffff;
+	font-size: 18px;
+	padding: 10px;
+}
+.Bottom a{
+	padding: 10px 145px;
+	font-size: 18px;
+	border-style: solid;
+}
+.Bottom a:hover {
+	text-decoration: none;
+	background-color: black;
+}
